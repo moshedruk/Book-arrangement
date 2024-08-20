@@ -14,6 +14,7 @@ namespace Test05.Connect
             if (Database.EnsureCreated() && _library.Count() == 0)
             {
                 Seed();
+
             }          
         }
         private static DbContextOptions Getoptions(string connectionString)
